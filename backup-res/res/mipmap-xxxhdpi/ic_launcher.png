@@ -1,0 +1,4 @@
+git ls-tree -r HEAD --name-only | grep -n "android/app/src/main/res/mipmap-xxxhdpi"
+git ls-tree -r origin/main --name-only | grep -n "android/app/src/main/res/mipmap-xxxhdpi"
+``
+
